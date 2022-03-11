@@ -1,0 +1,79 @@
+.body {
+    background-color: #1e2131;
+    height: 25rem;
+}
+
+.technologiescontainer {
+    max-width: 1120px;
+    position: relative;
+    bottom: -5rem;
+    left: 0rem;
+
+    .title2 {
+        color: #df6666;
+        font-size: 25px;
+        position: absolute;
+        left: 44rem;
+        bottom: 12rem;
+        line-height: 5rem;
+        font-weight: 980;
+        font-weight: bold;
+    }
+    
+
+    h1 {
+        position: relative;
+        left: 43rem;
+        font-size: 4.5rem;
+        background-image: linear-gradient(to right, var(--white), var(--gray-800), var(--gray-900));
+        color: black;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+.technologiescontent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.front {
+    font-size: 2rem;
+}
+
+.back {
+    font-size: 2rem;
+}
+
+.divfront {
+    position: relative;
+    left: 25rem;
+
+    p {
+        font-size: 1.5rem;
+        color: rgb(199, 199, 199);
+    }
+
+    .reacticon {
+      width: 55px !important;
+      height: 55px !important;
+    }
+}
+
+.divback {
+    position: relative;
+    right: -30rem;
+
+    p {
+        font-size: 1.5rem;
+        color: rgb(199, 199, 199);
+    }
+
+    .settingsicon {
+        width: 50px !important;
+        height: 50px !important;
+    }
+}

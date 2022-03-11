@@ -1,0 +1,72 @@
+.body {
+    background-color: #161724;
+    height: 45rem;
+}
+
+.aboutcointainer {
+    max-width: 1120px;
+
+}
+
+.aboutcontent {
+    height: 2rem;
+    margin: 0 auto;
+    margin-left: 22rem;
+    padding: 0 2rem;
+    height: 5rem;
+    line-height: 5rem;
+
+
+    h1 {
+        font-size: 55px;
+        margin-left: 4.8rem;
+        color: white;
+        font-family: 'Space Grotesk', sans-serif;
+
+    }
+
+    h2 {
+        font-size: 25px;
+        color: #df6666;
+        position: absolute;
+        line-height: 5rem;
+        font-weight: 980;
+        font-weight: bold;
+        top: 53rem;
+        left: 30rem;
+    }
+
+    .description1 {
+        font-size: 40px;
+        font-family: 'Space Grotesk', sans-serif;
+        border: solid;
+        width: 33rem;
+        height: 15rem;
+        border-radius: 20px;
+        padding-left: 25px;
+        box-shadow: 10px 10px #d62550;
+    }
+
+    .description2 {
+        position: absolute;
+        display: flex;
+        font-size: 1.6rem;
+        font-family: 'Roboto', sans-serif;
+        padding-top: -5px;
+        font-weight: 800;
+        background: rgb(12, 12, 12);
+        width: 70rem;
+        padding: 10px;
+        align-items: center;
+        bottom: -29rem;
+        border-radius: 20px;
+    }
+
+}
+
+.minhaimg {
+    position: absolute;
+    right: 15rem;
+    bottom: -17rem;
+}
+
