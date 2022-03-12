@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import styles from './styles.module.scss';
+import Image from "next/image";
+import styles from "./styles.module.scss";
 
 export function About() {
   return (
@@ -19,7 +19,12 @@ export function About() {
           </p>
         </div>
         <div className={styles.minhaimg}>
-          <Image src="/images/myimg.png" alt="minhaimg"  width="500rem" height="500rem"/>
+          <Image
+            src="/images/myimg.png"
+            alt="minhaimg"
+            width={500}
+            height={500}
+          />
         </div>
       </main>
     </body>
