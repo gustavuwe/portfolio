@@ -19,11 +19,7 @@ export function About() {
           </p>
         </div>
         <div className={styles.minhaimg}>
-          <Image
-            src="/images/myimg.png"
-            alt="minhaimg"
-            width={500}
-            height={500}
+          <Image src="/images/myimg.png" alt="minhaimg" width="500rem" height="500rem"
           />
         </div>
       </main>
